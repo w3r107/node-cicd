@@ -10,10 +10,10 @@ module.exports = {
     production: {
       user: "w3r107",
       host: "http://172.25.68.239/",
-      path: "project-path-in-remote-server",
+      path: "/home/w3r107/webdev/node-cidcd",
       repo: "git@github.com:w3r107/react-cicd.git",
       ref: "origin/main",
-      key: "ssh-key-path-in-local-machine",
+      key: "/home/w3r107/.ssh/id_ed25519.pub",
       "post-deploy": "npm i; pm2 reload ecosystem.config.js --env production",
     },
   },
